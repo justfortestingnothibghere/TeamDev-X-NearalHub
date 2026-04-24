@@ -19,11 +19,11 @@ BATBIN_API_URL = "https://batbin.me/api/paste/{paste_id}"
 
 
 
-BOT_TOKEN  = "8751148352:AAEoboUSeqHrrhVit-ceyxN2WvIAZDsvcO0"
+BOT_TOKEN  = "875xxxx52:AxxxxcxVit-ceyxN2WvIAZDsvcO0"
 API_SECRET = "TeamDev@2026"
 ADMIN_IDS  = [8163739723]
 
-MONGO_URI = "mongodb+srv://teamdevmail_db_user:CXVZnWuZgf55xVO8@cluster0.6xywr7u.mongodb.net/?appName=Cluster0"
+MONGO_URI = "mongodb+srv://txxxxxdb_user:xxxx8@cluster0.6xywr7u.mongodb.net/?appName=Cluster0"
 MONGO_DB  = "teamdev_neuralhub"
 
 # ───────────────── Internal service URLs ─────────────────
