@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "الخطط"
+  cancel:       "الغاء"
+  confirm:      "تاكيد"
+  back:         "رجوع >"
+  upgrade:      "ترقية الان"
+  status:       "حالتي"
+  help:         "مساعدة"
+  admin:        "لوحة الادمن"
+  language:     "اللغة"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    ارسل رسالة  ->  الذكاء الاصطناعي يرد فورا
+    /img <نص>  ->  توليد صورة
+    /dl <رابط>  ->  تحميل وسائط
+    /tb <رابط>  ->  ملفات Terabox
+  footer:       "مدعوم من @TEAM_X_OG"
+
+lang:
+  header:       "اختر اللغة"
+  set:          "تم تعيين اللغة: {lang}"
+  current:      "الحالية: {lang}"
+
+sub:
+  header:       "خطط الاشتراك"
+  free:
+    name:       "مجاني"
+    features: |
+      التحميلات  : 5/يوم
+      التاخير    : 5 دقائق
+      رسائل/شهر  : 150
+      صور/يوم    : 2
+  basic:
+    name:       "اساسي"
+    features: |
+      التحميلات  : 15/يوم
+      التاخير    : 2 دقائق
+      رسائل/شهر  : 300
+      صور/يوم    : 5
+  pro:
+    name:       "برو"
+    features: |
+      التحميلات  : 30/يوم
+      التاخير    : 1 دقيقة
+      رسائل/شهر  : 1000
+      صور/يوم    : 20
+  ultra:
+    name:       "ألترا"
+    features: |
+      التحميلات  : 100/يوم
+      التاخير    : 10 ثواني
+      رسائل/شهر  : 5000
+      صور/يوم    : 50
+  ultra_pro:
+    name:       "الترا برو"
+    features: |
+      التحميلات  : غير محدود
+      التاخير    : لا يوجد
+      رسائل/شهر  : غير محدود
+      صور/يوم    : غير محدود
+  current:      "خطتك : {plan}"
+  upgrade_hint: "تواصل مع @TEAM_X_OG للترقية."
+
+status:
+  header:       "حالة الاستخدام"
+  plan:         "الخطة      >  {plan}"
+  pm_used:      "رسائل/شهر  >  {used}/{limit}"
+  group_used:   "مجموعة    >  {used}/{limit}"
+  img_used:     "صور        >  {used}/{limit}"
+  dl_used:      "تحميلات   >  {used}/{limit}"
+  cooldown:     "تاخير      >  {seconds}s"
+  resets:       "اعادة تعيين >  {date}"
+
+error:
+  cooldown:     "التاخير نشط — انتظر {seconds}s قبل الارسال."
+  pm_limit:     "تم الوصول لحد الرسائل الشهري ({limit}).\n\nرقي خطتك لمزيد!"
+  group_limit:  "تم الوصول لحد المجموعة الشهري ({limit})."
+  img_limit:    "تم الوصول لحد الصور اليومي ({limit}).\n\nرقي خطتك!"
+  dl_limit:     "تم الوصول لحد التحميل اليومي ({limit}).\n\nرقي خطتك!"
+  api_error:    "خطا في API: {message}"
+  timeout:      "انتهت مهلة الطلب. حاول مرة اخرى."
+  no_prompt:    "الاستخدام: /img نصك هنا"
+  unknown:      "حدث خطا ما. حاول لاحقا."
+  no_access:    "الوصول مرفوض."
+
+ai:
+  thinking:     "افكر..."
+  generating:   "اولد..."
+  chunk_footer: "-- الجزء {n} من {total} --"
+  no_response:  "لم يتم استلام اي رد."
+
+admin:
+  header:       "لوحة الادمن"
+  updated:      "تم تحديث الاعداد: {key} = {value}"
+  user_info:    "{uid} | {plan} | رسائل: {pm} | مجموعة: {grp}"
+  grant_pro:    "تم منح الخطة لـ {uid}."
+  revoke_pro:   "تم سحب الخطة من {uid}."
+  not_admin:    "لست مديرا."
+  stats:        "الكل: {total} | برو: {pro} | مجاني: {free}"
+
+dl:
+  fetching:     "جاري جلب معلومات الوسائط..."
+  downloading:  "جاري التحميل..."
+  no_media:     "لم يتم العثور على وسائط قابلة للتحميل لهذا الرابط."
+  error:        "فشل التحميل: {error}"
+  link_label:   "تحميل"
