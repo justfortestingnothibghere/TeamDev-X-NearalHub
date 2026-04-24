@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+seleniumbase
+beautifulsoup4
+colorama
+pyTelegramBotAPI
+requests
+motor
+pymongo
+pyyaml
