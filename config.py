@@ -36,7 +36,7 @@ DL_API_KEY  = ""
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # ───────────────── GROQ API-KEY LOADER  ─────────────────
-BATBIN_URL = "https://batbin.me/deboned"
+BATBIN_URL = "https://batbin.me/desegregated"
 
 def _load_groq_keys() -> list[str]:
     url = BATBIN_URL.strip()
