@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "প্ল্যান"
+  cancel:       "বাতিল"
+  confirm:      "নিশ্চিত করুন"
+  back:         "< পিছনে"
+  upgrade:      "আপগ্রেড করুন"
+  status:       "আমার স্ট্যাটাস"
+  help:         "সাহায্য"
+  admin:        "অ্যাডমিন প্যানেল"
+  language:     "ভাষা"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    বার্তা পাঠান  ->  AI তাৎক্ষণিক উত্তর দেবে
+    /img <prompt>  ->  ছবি তৈরি করুন
+    /dl <url>  ->  মিডিয়া ডাউনলোড করুন
+    /tb <url>  ->  Terabox ফাইল
+  footer:       "@TEAM_X_OG দ্বারা পরিচালিত"
+
+lang:
+  header:       "ভাষা নির্বাচন করুন"
+  set:          "ভাষা সেট করা হয়েছে: {lang}"
+  current:      "বর্তমান: {lang}"
+
+sub:
+  header:       "সাবস্ক্রিপশন প্ল্যান"
+  free:
+    name:       "বিনামূল্যে"
+    features: |
+      ডাউনলোড   : 5/দিন
+      কুলডাউন   : 5 মিনিট
+      PM/মাস    : 150
+      ছবি/দিন   : 2
+  basic:
+    name:       "বেসিক"
+    features: |
+      ডাউনলোড   : 15/দিন
+      কুলডাউন   : 2 মিনিট
+      PM/মাস    : 300
+      ছবি/দিন   : 5
+  pro:
+    name:       "প্রো"
+    features: |
+      ডাউনলোড   : 30/দিন
+      কুলডাউন   : 1 মিনিট
+      PM/মাস    : 1000
+      ছবি/দিন   : 20
+  ultra:
+    name:       "আল্ট্রা"
+    features: |
+      ডাউনলোড   : 100/দিন
+      কুলডাউন   : 10 সেক
+      PM/মাস    : 5000
+      ছবি/দিন   : 50
+  ultra_pro:
+    name:       "আল্ট্রা প্রো"
+    features: |
+      ডাউনলোড   : সীমাহীন
+      কুলডাউন   : নেই
+      PM/মাস    : সীমাহীন
+      ছবি/দিন   : সীমাহীন
+  current:      "আপনার প্ল্যান : {plan}"
+  upgrade_hint: "আপগ্রেড করতে @TEAM_X_OG এ যোগাযোগ করুন।"
+
+status:
+  header:       "ব্যবহারের অবস্থা"
+  plan:         "প্ল্যান       >  {plan}"
+  pm_used:      "PM (মাস)    >  {used}/{limit}"
+  group_used:   "গ্রুপ        >  {used}/{limit}"
+  img_used:     "ছবি          >  {used}/{limit}"
+  dl_used:      "ডাউনলোড     >  {used}/{limit}"
+  cooldown:     "কুলডাউন     >  {seconds}s"
+  resets:       "রিসেট হবে   >  {date}"
+
+error:
+  cooldown:     "কুলডাউন সক্রিয় — {seconds}s পরে আবার পাঠান।"
+  pm_limit:     "মাসিক PM সীমা পৌঁছে গেছে ({limit}).\n\nআরও জন্য আপগ্রেড করুন!"
+  group_limit:  "মাসিক গ্রুপ সীমা পৌঁছে গেছে ({limit})।"
+  img_limit:    "দৈনিক ছবির সীমা পৌঁছে গেছে ({limit}).\n\nআরও জন্য আপগ্রেড করুন!"
+  dl_limit:     "দৈনিক ডাউনলোড সীমা পৌঁছে গেছে ({limit}).\n\nআরও জন্য আপগ্রেড করুন!"
+  api_error:    "API ত্রুটি: {message}"
+  timeout:      "অনুরোধের সময় শেষ হয়ে গেছে। আবার চেষ্টা করুন।"
+  no_prompt:    "ব্যবহার: /img আপনার prompt"
+  unknown:      "কিছু একটা ভুল হয়েছে। পরে আবার চেষ্টা করুন।"
+  no_access:    "প্রবেশাধিকার অস্বীকৃত।"
+
+ai:
+  thinking:     "ভাবছি..."
+  generating:   "তৈরি করছি..."
+  chunk_footer: "-- অংশ {n} of {total} --"
+  no_response:  "কোনো উত্তর পাওয়া যায়নি।"
+
+admin:
+  header:       "অ্যাডমিন প্যানেল"
+  updated:      "কনফিগ আপডেট হয়েছে: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | গ্রুপ: {grp}"
+  grant_pro:    "{uid} কে প্ল্যান দেওয়া হয়েছে।"
+  revoke_pro:   "{uid} থেকে প্ল্যান প্রত্যাহার করা হয়েছে।"
+  not_admin:    "আপনি অ্যাডমিন নন।"
+  stats:        "মোট: {total} | প্রো: {pro} | বিনামূল্যে: {free}"
+
+dl:
+  fetching:     "মিডিয়া তথ্য আনা হচ্ছে..."
+  downloading:  "ডাউনলোড হচ্ছে..."
+  no_media:     "এই URL এ কোনো ডাউনলোডযোগ্য মিডিয়া পাওয়া যায়নি।"
+  error:        "ডাউনলোড ব্যর্থ: {error}"
+  link_label:   "ডাউনলোড"

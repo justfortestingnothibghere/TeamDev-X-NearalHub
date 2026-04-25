@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "Plans"
+  cancel:       "Annuler"
+  confirm:      "Confirmer"
+  back:         "< Retour"
+  upgrade:      "Ameliorer"
+  status:       "Mon statut"
+  help:         "Aide"
+  admin:        "Panneau admin"
+  language:     "Langue"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    Envoyer un message  ->  IA repond instantanement
+    /img <texte>  ->  Generer une image
+    /dl <url>  ->  Telecharger media
+    /tb <url>  ->  Fichiers Terabox
+  footer:       "Propulse par @TEAM_X_OG"
+
+lang:
+  header:       "CHOISIR LA LANGUE"
+  set:          "Langue definie: {lang}"
+  current:      "Actuelle: {lang}"
+
+sub:
+  header:       "PLANS D'ABONNEMENT"
+  free:
+    name:       "Gratuit"
+    features: |
+      Telechargements : 5/jour
+      Attente    : 5 min
+      MP/mois    : 150
+      Images/jour : 2
+  basic:
+    name:       "Basique"
+    features: |
+      Telechargements : 15/jour
+      Attente    : 2 min
+      MP/mois    : 300
+      Images/jour : 5
+  pro:
+    name:       "Pro"
+    features: |
+      Telechargements : 30/jour
+      Attente    : 1 min
+      MP/mois    : 1000
+      Images/jour : 20
+  ultra:
+    name:       "Ultra"
+    features: |
+      Telechargements : 100/jour
+      Attente    : 10 sec
+      MP/mois    : 5000
+      Images/jour : 50
+  ultra_pro:
+    name:       "Ultra Pro"
+    features: |
+      Telechargements : Illimite
+      Attente    : Aucune
+      MP/mois    : Illimite
+      Images/jour : Illimite
+  current:      "Votre plan : {plan}"
+  upgrade_hint: "Contactez @TEAM_X_OG pour ameliorer."
+
+status:
+  header:       "STATUT D'UTILISATION"
+  plan:         "Plan       >  {plan}"
+  pm_used:      "MP (mois)  >  {used}/{limit}"
+  group_used:   "Groupe     >  {used}/{limit}"
+  img_used:     "Images     >  {used}/{limit}"
+  dl_used:      "Telechargements > {used}/{limit}"
+  cooldown:     "Attente    >  {seconds}s"
+  resets:       "Remise a zero >  {date}"
+
+error:
+  cooldown:     "Attente active — attendez {seconds}s avant d'envoyer."
+  pm_limit:     "Limite mensuelle de MP atteinte ({limit}).\n\nAmeliorez votre plan!"
+  group_limit:  "Limite mensuelle de groupe atteinte ({limit})."
+  img_limit:    "Limite quotidienne d'images atteinte ({limit}).\n\nAmeliorez votre plan!"
+  dl_limit:     "Limite quotidienne de telechargements atteinte ({limit}).\n\nAmeliorez votre plan!"
+  api_error:    "Erreur API: {message}"
+  timeout:      "Demande expiree. Reessayez."
+  no_prompt:    "Utilisation: /img votre texte ici"
+  unknown:      "Une erreur est survenue. Reessayez plus tard."
+  no_access:    "Acces refuse."
+
+ai:
+  thinking:     "Je reflechis..."
+  generating:   "Je genere..."
+  chunk_footer: "-- Partie {n} sur {total} --"
+  no_response:  "Aucune reponse recue."
+
+admin:
+  header:       "PANNEAU ADMINISTRATEUR"
+  updated:      "Config mis a jour: {key} = {value}"
+  user_info:    "{uid} | {plan} | MP: {pm} | Groupe: {grp}"
+  grant_pro:    "Plan accorde a {uid}."
+  revoke_pro:   "Plan retire de {uid}."
+  not_admin:    "Vous n'etes pas administrateur."
+  stats:        "Total: {total} | Pro: {pro} | Gratuit: {free}"
+
+dl:
+  fetching:     "Recuperation des infos media..."
+  downloading:  "Telechargement..."
+  no_media:     "Aucun media telechargeable trouve pour cette URL."
+  error:        "Echec du telechargement: {error}"
+  link_label:   "Telecharger"

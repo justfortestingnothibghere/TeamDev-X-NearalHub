@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "套餐"
+  cancel:       "取消"
+  confirm:      "确认"
+  back:         "< 返回"
+  upgrade:      "立即升级"
+  status:       "我的状态"
+  help:         "帮助"
+  admin:        "管理面板"
+  language:     "语言"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    发送消息  ->  AI即时回复
+    /img <提示>  ->  生成图像
+    /dl <url>  ->  下载媒体
+    /tb <url>  ->  Terabox文件
+  footer:       "由 @TEAM_X_OG 提供支持"
+
+lang:
+  header:       "选择语言"
+  set:          "语言已设置: {lang}"
+  current:      "当前: {lang}"
+
+sub:
+  header:       "订阅套餐"
+  free:
+    name:       "免费"
+    features: |
+      下载次数  : 5/天
+      冷却时间  : 5分钟
+      PM/月     : 150
+      图片/天   : 2
+  basic:
+    name:       "基础"
+    features: |
+      下载次数  : 15/天
+      冷却时间  : 2分钟
+      PM/月     : 300
+      图片/天   : 5
+  pro:
+    name:       "专业"
+    features: |
+      下载次数  : 30/天
+      冷却时间  : 1分钟
+      PM/月     : 1000
+      图片/天   : 20
+  ultra:
+    name:       "超级"
+    features: |
+      下载次数  : 100/天
+      冷却时间  : 10秒
+      PM/月     : 5000
+      图片/天   : 50
+  ultra_pro:
+    name:       "超级专业"
+    features: |
+      下载次数  : 无限制
+      冷却时间  : 无
+      PM/月     : 无限制
+      图片/天   : 无限制
+  current:      "您的套餐 : {plan}"
+  upgrade_hint: "请联系 @TEAM_X_OG 升级套餐。"
+
+status:
+  header:       "使用状态"
+  plan:         "套餐      >  {plan}"
+  pm_used:      "PM (月)   >  {used}/{limit}"
+  group_used:   "群组      >  {used}/{limit}"
+  img_used:     "图片      >  {used}/{limit}"
+  dl_used:      "下载      >  {used}/{limit}"
+  cooldown:     "冷却      >  {seconds}s"
+  resets:       "重置时间  >  {date}"
+
+error:
+  cooldown:     "冷却中 — 请等待 {seconds}s 后再发送。"
+  pm_limit:     "已达到每月PM上限 ({limit}).\n\n请升级套餐获取更多!"
+  group_limit:  "已达到每月群组上限 ({limit})。"
+  img_limit:    "已达到每日图片上限 ({limit}).\n\n请升级获取更多!"
+  dl_limit:     "已达到每日下载上限 ({limit}).\n\n请升级获取更多!"
+  api_error:    "API错误: {message}"
+  timeout:      "请求超时。请重试。"
+  no_prompt:    "用法: /img 您的提示词"
+  unknown:      "出现错误。请稍后再试。"
+  no_access:    "访问被拒绝。"
+
+ai:
+  thinking:     "正在思考..."
+  generating:   "正在生成..."
+  chunk_footer: "-- 第 {n}/{total} 部分 --"
+  no_response:  "未收到任何回复。"
+
+admin:
+  header:       "管理面板"
+  updated:      "配置已更新: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | 群组: {grp}"
+  grant_pro:    "已为 {uid} 授予套餐。"
+  revoke_pro:   "已撤销 {uid} 的套餐。"
+  not_admin:    "您不是管理员。"
+  stats:        "总计: {total} | 专业: {pro} | 免费: {free}"
+
+dl:
+  fetching:     "正在获取媒体信息..."
+  downloading:  "下载中..."
+  no_media:     "此URL没有找到可下载的媒体。"
+  error:        "下载失败: {error}"
+  link_label:   "下载"

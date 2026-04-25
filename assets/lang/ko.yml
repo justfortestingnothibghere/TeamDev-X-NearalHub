@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "요금제"
+  cancel:       "취소"
+  confirm:      "확인"
+  back:         "< 뒤로"
+  upgrade:      "업그레이드"
+  status:       "내 상태"
+  help:         "도움말"
+  admin:        "관리자 패널"
+  language:     "언어"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    메시지 전송  ->  AI가 즉시 답장합니다
+    /img <프롬프트>  ->  이미지 생성
+    /dl <url>  ->  미디어 다운로드
+    /tb <url>  ->  Terabox 파일
+  footer:       "@TEAM_X_OG 제공"
+
+lang:
+  header:       "언어 선택"
+  set:          "언어가 설정되었습니다: {lang}"
+  current:      "현재: {lang}"
+
+sub:
+  header:       "구독 요금제"
+  free:
+    name:       "무료"
+    features: |
+      다운로드  : 5/일
+      쿨다운    : 5분
+      PM/월     : 150
+      이미지/일 : 2
+  basic:
+    name:       "기본"
+    features: |
+      다운로드  : 15/일
+      쿨다운    : 2분
+      PM/월     : 300
+      이미지/일 : 5
+  pro:
+    name:       "프로"
+    features: |
+      다운로드  : 30/일
+      쿨다운    : 1분
+      PM/월     : 1000
+      이미지/일 : 20
+  ultra:
+    name:       "울트라"
+    features: |
+      다운로드  : 100/일
+      쿨다운    : 10초
+      PM/월     : 5000
+      이미지/일 : 50
+  ultra_pro:
+    name:       "울트라 프로"
+    features: |
+      다운로드  : 무제한
+      쿨다운    : 없음
+      PM/월     : 무제한
+      이미지/일 : 무제한
+  current:      "현재 요금제 : {plan}"
+  upgrade_hint: "업그레이드를 위해 @TEAM_X_OG 에 문의하세요."
+
+status:
+  header:       "사용 현황"
+  plan:         "요금제     >  {plan}"
+  pm_used:      "PM (월)   >  {used}/{limit}"
+  group_used:   "그룹      >  {used}/{limit}"
+  img_used:     "이미지    >  {used}/{limit}"
+  dl_used:      "다운로드  >  {used}/{limit}"
+  cooldown:     "쿨다운    >  {seconds}s"
+  resets:       "초기화    >  {date}"
+
+error:
+  cooldown:     "쿨다운 중입니다 — {seconds}s 후에 다시 전송하세요."
+  pm_limit:     "월간 PM 한도에 도달했습니다 ({limit}).\n\n더 많은 한도를 위해 업그레이드하세요!"
+  group_limit:  "월간 그룹 한도에 도달했습니다 ({limit})."
+  img_limit:    "일일 이미지 한도에 도달했습니다 ({limit}).\n\n업그레이드하세요!"
+  dl_limit:     "일일 다운로드 한도에 도달했습니다 ({limit}).\n\n업그레이드하세요!"
+  api_error:    "API 오류: {message}"
+  timeout:      "요청 시간이 초과되었습니다. 다시 시도하세요."
+  no_prompt:    "사용법: /img 프롬프트를 입력하세요"
+  unknown:      "오류가 발생했습니다. 나중에 다시 시도하세요."
+  no_access:    "접근이 거부되었습니다."
+
+ai:
+  thinking:     "생각 중..."
+  generating:   "생성 중..."
+  chunk_footer: "-- {n}/{total} 부분 --"
+  no_response:  "응답을 받지 못했습니다."
+
+admin:
+  header:       "관리자 패널"
+  updated:      "설정이 업데이트되었습니다: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | 그룹: {grp}"
+  grant_pro:    "{uid} 에게 요금제가 부여되었습니다."
+  revoke_pro:   "{uid} 로부터 요금제가 취소되었습니다."
+  not_admin:    "당신은 관리자가 아닙니다."
+  stats:        "전체: {total} | 프로: {pro} | 무료: {free}"
+
+dl:
+  fetching:     "미디어 정보를 가져오는 중..."
+  downloading:  "다운로드 중..."
+  no_media:     "이 URL에서 다운로드 가능한 미디어를 찾을 수 없습니다."
+  error:        "다운로드 실패: {error}"
+  link_label:   "다운로드"

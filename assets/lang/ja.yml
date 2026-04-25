@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "プラン"
+  cancel:       "キャンセル"
+  confirm:      "確認"
+  back:         "< 戻る"
+  upgrade:      "アップグレード"
+  status:       "マイステータス"
+  help:         "ヘルプ"
+  admin:        "管理パネル"
+  language:     "言語"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    メッセージを送信  ->  AIがすぐに返信します
+    /img <プロンプト>  ->  画像を生成する
+    /dl <url>  ->  メディアをダウンロード
+    /tb <url>  ->  Teraboxファイル
+  footer:       "@TEAM_X_OGが提供"
+
+lang:
+  header:       "言語を選択"
+  set:          "言語が設定されました: {lang}"
+  current:      "現在: {lang}"
+
+sub:
+  header:       "サブスクリプションプラン"
+  free:
+    name:       "無料"
+    features: |
+      ダウンロード : 5/日
+      クールダウン : 5分
+      PM/月       : 150
+      画像/日     : 2
+  basic:
+    name:       "ベーシック"
+    features: |
+      ダウンロード : 15/日
+      クールダウン : 2分
+      PM/月       : 300
+      画像/日     : 5
+  pro:
+    name:       "プロ"
+    features: |
+      ダウンロード : 30/日
+      クールダウン : 1分
+      PM/月       : 1000
+      画像/日     : 20
+  ultra:
+    name:       "ウルトラ"
+    features: |
+      ダウンロード : 100/日
+      クールダウン : 10秒
+      PM/月       : 5000
+      画像/日     : 50
+  ultra_pro:
+    name:       "ウルトラプロ"
+    features: |
+      ダウンロード : 無制限
+      クールダウン : なし
+      PM/月       : 無制限
+      画像/日     : 無制限
+  current:      "あなたのプラン : {plan}"
+  upgrade_hint: "アップグレードは @TEAM_X_OG へ連絡してください。"
+
+status:
+  header:       "使用状況"
+  plan:         "プラン      >  {plan}"
+  pm_used:      "PM (月)    >  {used}/{limit}"
+  group_used:   "グループ   >  {used}/{limit}"
+  img_used:     "画像       >  {used}/{limit}"
+  dl_used:      "ダウンロード >  {used}/{limit}"
+  cooldown:     "クールダウン >  {seconds}s"
+  resets:       "リセット   >  {date}"
+
+error:
+  cooldown:     "クールダウン中です — {seconds}s後に再送信してください。"
+  pm_limit:     "月間PMの上限に達しました ({limit}).\n\nプランをアップグレードしてください!"
+  group_limit:  "月間グループの上限に達しました ({limit})。"
+  img_limit:    "1日の画像上限に達しました ({limit}).\n\nアップグレードしてください!"
+  dl_limit:     "1日のダウンロード上限に達しました ({limit}).\n\nアップグレードしてください!"
+  api_error:    "APIエラー: {message}"
+  timeout:      "リクエストがタイムアウトしました。もう一度試してください。"
+  no_prompt:    "使い方: /img あなたのプロンプト"
+  unknown:      "エラーが発生しました。後でもう一度試してください。"
+  no_access:    "アクセスが拒否されました。"
+
+ai:
+  thinking:     "考えています..."
+  generating:   "生成中..."
+  chunk_footer: "-- パート {n} / {total} --"
+  no_response:  "応答がありませんでした。"
+
+admin:
+  header:       "管理パネル"
+  updated:      "設定が更新されました: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | グループ: {grp}"
+  grant_pro:    "{uid} にプランを付与しました。"
+  revoke_pro:   "{uid} からプランを取り消しました。"
+  not_admin:    "あなたは管理者ではありません。"
+  stats:        "合計: {total} | プロ: {pro} | 無料: {free}"
+
+dl:
+  fetching:     "メディア情報を取得中..."
+  downloading:  "ダウンロード中..."
+  no_media:     "このURLにダウンロード可能なメディアが見つかりませんでした。"
+  error:        "ダウンロード失敗: {error}"
+  link_label:   "ダウンロード"

@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "پلان"
+  cancel:       "منسوخ"
+  confirm:      "تصدیق کریں"
+  back:         "< واپس"
+  upgrade:      "اپگریڈ کریں"
+  status:       "میری حیثیت"
+  help:         "مدد"
+  admin:        "ایڈمن پینل"
+  language:     "زبان"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    پیغام بھیجیں  ->  AI فوری جواب دے گا
+    /img <prompt>  ->  تصویر بنائیں
+    /dl <url>  ->  میڈیا ڈاؤنلوڈ کریں
+    /tb <url>  ->  Terabox فائلیں
+  footer:       "@TEAM_X_OG کی طرف سے چلایا جا رہا ہے"
+
+lang:
+  header:       "زبان منتخب کریں"
+  set:          "زبان سیٹ کی گئی: {lang}"
+  current:      "موجودہ: {lang}"
+
+sub:
+  header:       "سبسکرپشن پلان"
+  free:
+    name:       "مفت"
+    features: |
+      ڈاؤنلوڈ   : 5/دن
+      کول ڈاؤن  : 5 منٹ
+      PM/ماہ    : 150
+      تصاویر/دن : 2
+  basic:
+    name:       "بنیادی"
+    features: |
+      ڈاؤنلوڈ   : 15/دن
+      کول ڈاؤن  : 2 منٹ
+      PM/ماہ    : 300
+      تصاویر/دن : 5
+  pro:
+    name:       "پرو"
+    features: |
+      ڈاؤنلوڈ   : 30/دن
+      کول ڈاؤن  : 1 منٹ
+      PM/ماہ    : 1000
+      تصاویر/دن : 20
+  ultra:
+    name:       "الٹرا"
+    features: |
+      ڈاؤنلوڈ   : 100/دن
+      کول ڈاؤن  : 10 سیکنڈ
+      PM/ماہ    : 5000
+      تصاویر/دن : 50
+  ultra_pro:
+    name:       "الٹرا پرو"
+    features: |
+      ڈاؤنلوڈ   : لامحدود
+      کول ڈاؤن  : کوئی نہیں
+      PM/ماہ    : لامحدود
+      تصاویر/دن : لامحدود
+  current:      "آپ کا پلان : {plan}"
+  upgrade_hint: "اپگریڈ کے لیے @TEAM_X_OG سے رابطہ کریں۔"
+
+status:
+  header:       "استعمال کی حیثیت"
+  plan:         "پلان       >  {plan}"
+  pm_used:      "PM (ماہ)   >  {used}/{limit}"
+  group_used:   "گروپ      >  {used}/{limit}"
+  img_used:     "تصاویر    >  {used}/{limit}"
+  dl_used:      "ڈاؤنلوڈ   >  {used}/{limit}"
+  cooldown:     "کول ڈاؤن  >  {seconds}s"
+  resets:       "ری سیٹ    >  {date}"
+
+error:
+  cooldown:     "کول ڈاؤن فعال ہے — {seconds}s بعد دوبارہ بھیجیں۔"
+  pm_limit:     "ماہانہ PM حد پوری ہو گئی ({limit}).\n\nمزید کے لیے اپگریڈ کریں!"
+  group_limit:  "ماہانہ گروپ حد پوری ہو گئی ({limit})۔"
+  img_limit:    "روزانہ تصویر کی حد پوری ہو گئی ({limit}).\n\nاپگریڈ کریں!"
+  dl_limit:     "روزانہ ڈاؤنلوڈ کی حد پوری ہو گئی ({limit}).\n\nاپگریڈ کریں!"
+  api_error:    "API غلطی: {message}"
+  timeout:      "درخواست کا وقت ختم ہو گیا۔ دوبارہ کوشش کریں۔"
+  no_prompt:    "استعمال: /img آپ کا prompt"
+  unknown:      "کچھ غلط ہو گیا۔ بعد میں کوشش کریں۔"
+  no_access:    "رسائی سے انکار۔"
+
+ai:
+  thinking:     "سوچ رہا ہوں..."
+  generating:   "بنا رہا ہوں..."
+  chunk_footer: "-- حصہ {n} از {total} --"
+  no_response:  "کوئی جواب نہیں ملا۔"
+
+admin:
+  header:       "ایڈمن پینل"
+  updated:      "کنفیگ اپڈیٹ ہو گیا: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | گروپ: {grp}"
+  grant_pro:    "{uid} کو پلان دے دیا گیا۔"
+  revoke_pro:   "{uid} سے پلان واپس لے لیا گیا۔"
+  not_admin:    "آپ ایڈمن نہیں ہیں۔"
+  stats:        "کل: {total} | پرو: {pro} | مفت: {free}"
+
+dl:
+  fetching:     "میڈیا کی معلومات لے رہا ہوں..."
+  downloading:  "ڈاؤنلوڈ ہو رہا ہے..."
+  no_media:     "اس URL پر کوئی قابل ڈاؤنلوڈ میڈیا نہیں ملا۔"
+  error:        "ڈاؤنلوڈ ناکام: {error}"
+  link_label:   "ڈاؤنلوڈ"

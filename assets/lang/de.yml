@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "Pakete"
+  cancel:       "Abbrechen"
+  confirm:      "Bestatigen"
+  back:         "< Zuruck"
+  upgrade:      "Jetzt upgraden"
+  status:       "Mein Status"
+  help:         "Hilfe"
+  admin:        "Admin-Panel"
+  language:     "Sprache"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    Nachricht senden  ->  KI antwortet sofort
+    /img <Text>  ->  Bild generieren
+    /dl <url>  ->  Medien herunterladen
+    /tb <url>  ->  Terabox-Dateien
+  footer:       "Bereitgestellt von @TEAM_X_OG"
+
+lang:
+  header:       "SPRACHE WAHLEN"
+  set:          "Sprache festgelegt: {lang}"
+  current:      "Aktuell: {lang}"
+
+sub:
+  header:       "ABO-PAKETE"
+  free:
+    name:       "Kostenlos"
+    features: |
+      Downloads  : 5/Tag
+      Wartezeit  : 5 Min
+      PM/Monat   : 150
+      Bilder/Tag : 2
+  basic:
+    name:       "Basis"
+    features: |
+      Downloads  : 15/Tag
+      Wartezeit  : 2 Min
+      PM/Monat   : 300
+      Bilder/Tag : 5
+  pro:
+    name:       "Pro"
+    features: |
+      Downloads  : 30/Tag
+      Wartezeit  : 1 Min
+      PM/Monat   : 1000
+      Bilder/Tag : 20
+  ultra:
+    name:       "Ultra"
+    features: |
+      Downloads  : 100/Tag
+      Wartezeit  : 10 Sek
+      PM/Monat   : 5000
+      Bilder/Tag : 50
+  ultra_pro:
+    name:       "Ultra Pro"
+    features: |
+      Downloads  : Unbegrenzt
+      Wartezeit  : Keine
+      PM/Monat   : Unbegrenzt
+      Bilder/Tag : Unbegrenzt
+  current:      "Dein Paket : {plan}"
+  upgrade_hint: "Kontaktiere @TEAM_X_OG fur ein Upgrade."
+
+status:
+  header:       "NUTZUNGSSTATUS"
+  plan:         "Paket      >  {plan}"
+  pm_used:      "PM (Monat) >  {used}/{limit}"
+  group_used:   "Gruppe     >  {used}/{limit}"
+  img_used:     "Bilder     >  {used}/{limit}"
+  dl_used:      "Downloads  >  {used}/{limit}"
+  cooldown:     "Wartezeit  >  {seconds}s"
+  resets:       "Zurucksetzen >  {date}"
+
+error:
+  cooldown:     "Wartezeit aktiv — warte {seconds}s vor dem nachsten Senden."
+  pm_limit:     "Monatliches PM-Limit erreicht ({limit}).\n\nUpgrade fur mehr!"
+  group_limit:  "Monatliches Gruppen-Limit erreicht ({limit})."
+  img_limit:    "Tagliches Bilder-Limit erreicht ({limit}).\n\nUpgrade fur mehr!"
+  dl_limit:     "Tagliches Download-Limit erreicht ({limit}).\n\nUpgrade fur mehr!"
+  api_error:    "API-Fehler: {message}"
+  timeout:      "Anfrage abgelaufen. Erneut versuchen."
+  no_prompt:    "Verwendung: /img dein Text hier"
+  unknown:      "Etwas ist schiefgelaufen. Spater erneut versuchen."
+  no_access:    "Zugriff verweigert."
+
+ai:
+  thinking:     "Ich denke..."
+  generating:   "Ich generiere..."
+  chunk_footer: "-- Teil {n} von {total} --"
+  no_response:  "Keine Antwort erhalten."
+
+admin:
+  header:       "ADMINISTRATOR-PANEL"
+  updated:      "Konfiguration aktualisiert: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | Gruppe: {grp}"
+  grant_pro:    "Paket an {uid} vergeben."
+  revoke_pro:   "Paket von {uid} entzogen."
+  not_admin:    "Du bist kein Administrator."
+  stats:        "Gesamt: {total} | Pro: {pro} | Kostenlos: {free}"
+
+dl:
+  fetching:     "Medieninfos werden abgerufen..."
+  downloading:  "Herunterladen..."
+  no_media:     "Kein herunterladbares Medium fur diese URL gefunden."
+  error:        "Download fehlgeschlagen: {error}"
+  link_label:   "Herunterladen"

@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "Plans"
+  cancel:       "Cancel"
+  confirm:      "Confirm"
+  back:         "< Wapas"
+  upgrade:      "Upgrade Karo"
+  status:       "Mera Status"
+  help:         "Madad"
+  admin:        "Admin Panel"
+  language:     "Bhasha"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    Message bhejo  ->  AI jawab dega
+    /img <prompt>  ->  Image banao
+    /dl <url>  ->  Media download karo
+    /tb <url>  ->  Terabox files
+  footer:       "@TEAM_X_OG dwara sanchalit"
+
+lang:
+  header:       "BHASHA CHUNEN"
+  set:          "Bhasha set ki gayi: {lang}"
+  current:      "Abhi: {lang}"
+
+sub:
+  header:       "SUBSCRIPTION PLANS"
+  free:
+    name:       "Free"
+    features: |
+      Downloads  : 5/din
+      Cooldown   : 5 min
+      PM/mahina  : 150
+      Images/din : 2
+  basic:
+    name:       "Basic"
+    features: |
+      Downloads  : 15/din
+      Cooldown   : 2 min
+      PM/mahina  : 300
+      Images/din : 5
+  pro:
+    name:       "Pro"
+    features: |
+      Downloads  : 30/din
+      Cooldown   : 1 min
+      PM/mahina  : 1000
+      Images/din : 20
+  ultra:
+    name:       "Ultra"
+    features: |
+      Downloads  : 100/din
+      Cooldown   : 10 sec
+      PM/mahina  : 5000
+      Images/din : 50
+  ultra_pro:
+    name:       "Ultra Pro"
+    features: |
+      Downloads  : Unlimited
+      Cooldown   : Koi nahi
+      PM/mahina  : Unlimited
+      Images/din : Unlimited
+  current:      "Tumhara plan : {plan}"
+  upgrade_hint: "Upgrade ke liye @TEAM_X_OG se contact karo."
+
+status:
+  header:       "USAGE STATUS"
+  plan:         "Plan       >  {plan}"
+  pm_used:      "PM (mahina) >  {used}/{limit}"
+  group_used:   "Group      >  {used}/{limit}"
+  img_used:     "Images     >  {used}/{limit}"
+  dl_used:      "Downloads  >  {used}/{limit}"
+  cooldown:     "Cooldown   >  {seconds}s"
+  resets:       "Reset hoga >  {date}"
+
+error:
+  cooldown:     "Cooldown chal raha hai — {seconds}s baad phir bhejo."
+  pm_limit:     "Monthly PM limit khatam ({limit}).\n\nPlan upgrade karo!"
+  group_limit:  "Monthly group limit khatam ({limit})."
+  img_limit:    "Aaj ki image limit khatam ({limit}).\n\nUpgrade karo!"
+  dl_limit:     "Aaj ki download limit khatam ({limit}).\n\nUpgrade karo!"
+  api_error:    "API error: {message}"
+  timeout:      "Request timeout ho gayi. Dobara try karo."
+  no_prompt:    "Usage: /img tumhara prompt"
+  unknown:      "Kuch galat hua. Baad mein try karo."
+  no_access:    "Access nahi hai."
+
+ai:
+  thinking:     "Soch raha hun..."
+  generating:   "Bana raha hun..."
+  chunk_footer: "-- Part {n} of {total} --"
+  no_response:  "Koi response nahi mila."
+
+admin:
+  header:       "ADMIN PANEL"
+  updated:      "Config update hua: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | Group: {grp}"
+  grant_pro:    "Plan mil gaya {uid} ko."
+  revoke_pro:   "Plan wapas le liya {uid} se."
+  not_admin:    "Tum admin nahi ho."
+  stats:        "Total: {total} | Pro: {pro} | Free: {free}"
+
+dl:
+  fetching:     "Media info aa rahi hai..."
+  downloading:  "Download ho raha hai..."
+  no_media:     "Is URL pe koi media nahi mila."
+  error:        "Download fail: {error}"
+  link_label:   "Download"

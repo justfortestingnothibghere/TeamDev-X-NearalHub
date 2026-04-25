@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "Paket"
+  cancel:       "Batal"
+  confirm:      "Konfirmasi"
+  back:         "< Kembali"
+  upgrade:      "Upgrade Sekarang"
+  status:       "Status Saya"
+  help:         "Bantuan"
+  admin:        "Panel Admin"
+  language:     "Bahasa"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    Kirim pesan  ->  AI membalas seketika
+    /img <teks>  ->  Buat gambar
+    /dl <url>  ->  Unduh media
+    /tb <url>  ->  File Terabox
+  footer:       "Didukung oleh @TEAM_X_OG"
+
+lang:
+  header:       "PILIH BAHASA"
+  set:          "Bahasa diatur: {lang}"
+  current:      "Saat ini: {lang}"
+
+sub:
+  header:       "PAKET LANGGANAN"
+  free:
+    name:       "Gratis"
+    features: |
+      Unduhan    : 5/hari
+      Cooldown   : 5 menit
+      PM/bulan   : 150
+      Gambar/hari : 2
+  basic:
+    name:       "Dasar"
+    features: |
+      Unduhan    : 15/hari
+      Cooldown   : 2 menit
+      PM/bulan   : 300
+      Gambar/hari : 5
+  pro:
+    name:       "Pro"
+    features: |
+      Unduhan    : 30/hari
+      Cooldown   : 1 menit
+      PM/bulan   : 1000
+      Gambar/hari : 20
+  ultra:
+    name:       "Ultra"
+    features: |
+      Unduhan    : 100/hari
+      Cooldown   : 10 detik
+      PM/bulan   : 5000
+      Gambar/hari : 50
+  ultra_pro:
+    name:       "Ultra Pro"
+    features: |
+      Unduhan    : Tak terbatas
+      Cooldown   : Tidak ada
+      PM/bulan   : Tak terbatas
+      Gambar/hari : Tak terbatas
+  current:      "Paket Anda : {plan}"
+  upgrade_hint: "Hubungi @TEAM_X_OG untuk upgrade."
+
+status:
+  header:       "STATUS PENGGUNAAN"
+  plan:         "Paket      >  {plan}"
+  pm_used:      "PM (bulan) >  {used}/{limit}"
+  group_used:   "Grup       >  {used}/{limit}"
+  img_used:     "Gambar     >  {used}/{limit}"
+  dl_used:      "Unduhan    >  {used}/{limit}"
+  cooldown:     "Cooldown   >  {seconds}s"
+  resets:       "Reset pada >  {date}"
+
+error:
+  cooldown:     "Cooldown aktif — tunggu {seconds}s sebelum mengirim lagi."
+  pm_limit:     "Batas PM bulanan tercapai ({limit}).\n\nUpgrade paket Anda!"
+  group_limit:  "Batas grup bulanan tercapai ({limit})."
+  img_limit:    "Batas gambar harian tercapai ({limit}).\n\nUpgrade untuk lebih banyak!"
+  dl_limit:     "Batas unduhan harian tercapai ({limit}).\n\nUpgrade untuk lebih banyak!"
+  api_error:    "Kesalahan API: {message}"
+  timeout:      "Permintaan habis waktu. Coba lagi."
+  no_prompt:    "Penggunaan: /img teks Anda di sini"
+  unknown:      "Terjadi kesalahan. Coba lagi nanti."
+  no_access:    "Akses ditolak."
+
+ai:
+  thinking:     "Sedang berpikir..."
+  generating:   "Sedang membuat..."
+  chunk_footer: "-- Bagian {n} dari {total} --"
+  no_response:  "Tidak ada respons diterima."
+
+admin:
+  header:       "PANEL ADMIN"
+  updated:      "Konfigurasi diperbarui: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | Grup: {grp}"
+  grant_pro:    "Paket diberikan ke {uid}."
+  revoke_pro:   "Paket dicabut dari {uid}."
+  not_admin:    "Anda bukan admin."
+  stats:        "Total: {total} | Pro: {pro} | Gratis: {free}"
+
+dl:
+  fetching:     "Mengambil info media..."
+  downloading:  "Mengunduh..."
+  no_media:     "Tidak ada media yang dapat diunduh untuk URL ini."
+  error:        "Unduhan gagal: {error}"
+  link_label:   "Unduh"

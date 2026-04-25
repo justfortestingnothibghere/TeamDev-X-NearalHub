@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "পান্থোকপা"
+  cancel:       "থাদোকউ"
+  confirm:      "থাজৌবা"
+  back:         "< ফাওবা"
+  upgrade:      "অপগ্রেদ তৌবিয়ু"
+  status:       "ঙাগী স্তেতস"
+  help:         "হেল্প"
+  admin:        "এদমিন পেনেল"
+  language:     "লোন"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    মেসেজ থাদোকউ  ->  AI না উতথোকপিগনি
+    /img <prompt>  ->  ফোতো থৌরাকউ
+    /dl <url>  ->  মিদিয়া দাউনলোদ তৌবিয়ু
+    /tb <url>  ->  Terabox ফাইলশিং
+  footer:       "@TEAM_X_OG না শক্তি পীরকপা"
+
+lang:
+  header:       "লোন সেলেক্ট তৌবিয়ু"
+  set:          "লোন সেত তৌরে: {lang}"
+  current:      "মতমদা: {lang}"
+
+sub:
+  header:       "সবস্ক্রিপসন পান্থোকপা"
+  free:
+    name:       "ফ্রি"
+    features: |
+      দাউনলোদ  : 5/নুমিৎ
+      কুলদাউন  : 5 মিনিত
+      PM/থা    : 150
+      ফোতো/নুমিৎ : 2
+  basic:
+    name:       "বেসিক"
+    features: |
+      দাউনলোদ  : 15/নুমিৎ
+      কুলদাউন  : 2 মিনিত
+      PM/থা    : 300
+      ফোতো/নুমিৎ : 5
+  pro:
+    name:       "প্রো"
+    features: |
+      দাউনলোদ  : 30/নুমিৎ
+      কুলদাউন  : 1 মিনিত
+      PM/থা    : 1000
+      ফোতো/নুমিৎ : 20
+  ultra:
+    name:       "অলত্রা"
+    features: |
+      দাউনলোদ  : 100/নুমিৎ
+      কুলদাউন  : 10 সেক
+      PM/থা    : 5000
+      ফোতো/নুমিৎ : 50
+  ultra_pro:
+    name:       "অলত্রা প্রো"
+    features: |
+      দাউনলোদ  : সীমা অকায়
+      কুলদাউন  : অকায়
+      PM/থা    : সীমা অকায়
+      ফোতো/নুমিৎ : সীমা অকায়
+  current:      "নংগী পান্থোকপা : {plan}"
+  upgrade_hint: "অপগ্রেদ তৌবিরে চৎলিবরা @TEAM_X_OG দা লৈবাক্তোন তৌবিয়ু।"
+
+status:
+  header:       "ব্যবহার স্তেতস"
+  plan:         "পান্থোকপা   >  {plan}"
+  pm_used:      "PM (থা)    >  {used}/{limit}"
+  group_used:   "গ্রুপ      >  {used}/{limit}"
+  img_used:     "ফোতো       >  {used}/{limit}"
+  dl_used:      "দাউনলোদ   >  {used}/{limit}"
+  cooldown:     "কুলদাউন   >  {seconds}s"
+  resets:       "রিসেত তৌগনি >  {date}"
+
+error:
+  cooldown:     "কুলদাউন চলিরি — {seconds}s মথং দা থৌরাকউ।"
+  pm_limit:     "মাসিক PM সীমা চেকখি ({limit}).\n\nঅপগ্রেদ তৌবিয়ু!"
+  group_limit:  "মাসিক গ্রুপ সীমা চেকখি ({limit})।"
+  img_limit:    "নুমিৎকী ফোতো সীমা চেকখি ({limit}).\n\nঅপগ্রেদ তৌবিয়ু!"
+  dl_limit:     "নুমিৎকী দাউনলোদ সীমা চেকখি ({limit}).\n\nঅপগ্রেদ তৌবিয়ু!"
+  api_error:    "API এরর: {message}"
+  timeout:      "রিকুয়েস্ট তাইম আউত তৌখি। মথং দা থৌরাকউ।"
+  no_prompt:    "ব্যবহার: /img নংগী প্রোম্পত"
+  unknown:      "অমা লেপথোকখি। মথং দা থৌরাকউ।"
+  no_access:    "এক্সেস পীবিরে।"
+
+ai:
+  thinking:     "ফিকর তৌরি..."
+  generating:   "থৌরাকলি..."
+  chunk_footer: "-- পার্ত {n} of {total} --"
+  no_response:  "রেস্পোন্স অমাদা লাকখিদে।"
+
+admin:
+  header:       "এদমিন পেনেল"
+  updated:      "কনফিগ অপদেত তৌরে: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | গ্রুপ: {grp}"
+  grant_pro:    "{uid} দা পান্থোকপা পীরে।"
+  revoke_pro:   "{uid} গী পান্থোকপা থাদোকখি।"
+  not_admin:    "নং এদমিন নত্তে।"
+  stats:        "মশিং: {total} | প্রো: {pro} | ফ্রি: {free}"
+
+dl:
+  fetching:     "মিদিয়া ইনফো লাকপিরি..."
+  downloading:  "দাউনলোদ তৌরি..."
+  no_media:     "অসিদা দাউনলোদ তৌথোকপা মিদিয়া অমাদা লাকখিদে।"
+  error:        "দাউনলোদ ফেল তৌখি: {error}"
+  link_label:   "দাউনলোদ"

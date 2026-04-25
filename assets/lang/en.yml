@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "Plans"
+  cancel:       "Cancel"
+  confirm:      "Confirm"
+  back:         "< Back"
+  upgrade:      "Upgrade Now"
+  status:       "My Status"
+  help:         "Help"
+  admin:        "Admin Panel"
+  language:     "Language"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    Message  ->  AI replies instantly
+    /img <prompt>  ->  Generate image
+    /dl <url>  ->  Download media
+    /tb <url>  ->  Terabox files
+  footer:       "Powered by @TEAM_X_OG"
+
+lang:
+  header:       "SELECT LANGUAGE"
+  set:          "Language set to: {lang}"
+  current:      "Current: {lang}"
+
+sub:
+  header:       "SUBSCRIPTION PLANS"
+  free:
+    name:       "Free"
+    features: |
+      Downloads  : 5/day
+      Cooldown   : 5 min
+      PM/month   : 150
+      Images/day : 2
+  basic:
+    name:       "Basic"
+    features: |
+      Downloads  : 15/day
+      Cooldown   : 2 min
+      PM/month   : 300
+      Images/day : 5
+  pro:
+    name:       "Pro"
+    features: |
+      Downloads  : 30/day
+      Cooldown   : 1 min
+      PM/month   : 1000
+      Images/day : 20
+  ultra:
+    name:       "Ultra"
+    features: |
+      Downloads  : 100/day
+      Cooldown   : 10 sec
+      PM/month   : 5000
+      Images/day : 50
+  ultra_pro:
+    name:       "Ultra Pro"
+    features: |
+      Downloads  : Unlimited
+      Cooldown   : None
+      PM/month   : Unlimited
+      Images/day : Unlimited
+  current:      "Your plan : {plan}"
+  upgrade_hint: "Contact @TEAM_X_OG to upgrade."
+
+status:
+  header:       "USAGE STATUS"
+  plan:         "Plan       >  {plan}"
+  pm_used:      "PM (month) >  {used}/{limit}"
+  group_used:   "Group      >  {used}/{limit}"
+  img_used:     "Images     >  {used}/{limit}"
+  dl_used:      "Downloads  >  {used}/{limit}"
+  cooldown:     "Cooldown   >  {seconds}s"
+  resets:       "Resets on  >  {date}"
+
+error:
+  cooldown:     "Cooldown active — wait {seconds}s before sending again."
+  pm_limit:     "Monthly PM limit reached ({limit}).\n\nUpgrade your plan for more!"
+  group_limit:  "Monthly group limit reached ({limit})."
+  img_limit:    "Daily image limit reached ({limit}).\n\nUpgrade to generate more!"
+  dl_limit:     "Daily download limit reached ({limit}).\n\nUpgrade for more downloads!"
+  api_error:    "API error: {message}"
+  timeout:      "Request timed out. Please try again."
+  no_prompt:    "Usage: /img your prompt here"
+  unknown:      "Something went wrong. Try again later."
+  no_access:    "Access denied."
+
+ai:
+  thinking:     "Thinking..."
+  generating:   "Generating..."
+  chunk_footer: "-- Part {n} of {total} --"
+  no_response:  "No response received."
+
+admin:
+  header:       "ADMIN PANEL"
+  updated:      "Config updated: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | Group: {grp}"
+  grant_pro:    "Plan granted to {uid}."
+  revoke_pro:   "Plan revoked from {uid}."
+  not_admin:    "You are not an admin."
+  stats:        "Total: {total} | Pro: {pro} | Free: {free}"
+
+dl:
+  fetching:     "Fetching media info..."
+  downloading:  "Downloading..."
+  no_media:     "No downloadable media found for this URL."
+  error:        "Download failed: {error}"
+  link_label:   "Download"

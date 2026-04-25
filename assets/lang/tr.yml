@@ -1,0 +1,109 @@
+
+btn:
+  subscribe:    "Planlar"
+  cancel:       "Iptal"
+  confirm:      "Onayla"
+  back:         "< Geri"
+  upgrade:      "Yuksel"
+  status:       "Durumum"
+  help:         "Yardim"
+  admin:        "Yonetici Paneli"
+  language:     "Dil"
+
+welcome:
+  title:        "TEAMDEV x NEURALHUB"
+  body: |
+    Mesaj gonder  ->  AI aninda yanit verir
+    /img <istem>  ->  Gorsel olustur
+    /dl <url>  ->  Medya indir
+    /tb <url>  ->  Terabox dosyalari
+  footer:       "@TEAM_X_OG tarafindan desteklenmektedir"
+
+lang:
+  header:       "DIL SECIN"
+  set:          "Dil ayarlandi: {lang}"
+  current:      "Mevcut: {lang}"
+
+sub:
+  header:       "ABONELIK PLANLARI"
+  free:
+    name:       "Ucretsiz"
+    features: |
+      Indirmeler  : 5/gun
+      Bekleme     : 5 dak
+      PM/ay       : 150
+      Gorsel/gun  : 2
+  basic:
+    name:       "Temel"
+    features: |
+      Indirmeler  : 15/gun
+      Bekleme     : 2 dak
+      PM/ay       : 300
+      Gorsel/gun  : 5
+  pro:
+    name:       "Pro"
+    features: |
+      Indirmeler  : 30/gun
+      Bekleme     : 1 dak
+      PM/ay       : 1000
+      Gorsel/gun  : 20
+  ultra:
+    name:       "Ultra"
+    features: |
+      Indirmeler  : 100/gun
+      Bekleme     : 10 san
+      PM/ay       : 5000
+      Gorsel/gun  : 50
+  ultra_pro:
+    name:       "Ultra Pro"
+    features: |
+      Indirmeler  : Sinirstiz
+      Bekleme     : Yok
+      PM/ay       : Sinirstiz
+      Gorsel/gun  : Sinirstiz
+  current:      "Planin : {plan}"
+  upgrade_hint: "Yukselmek icin @TEAM_X_OG ile iletisime gecin."
+
+status:
+  header:       "KULLANIM DURUMU"
+  plan:         "Plan       >  {plan}"
+  pm_used:      "PM (ay)    >  {used}/{limit}"
+  group_used:   "Grup       >  {used}/{limit}"
+  img_used:     "Gorseller  >  {used}/{limit}"
+  dl_used:      "Indirmeler >  {used}/{limit}"
+  cooldown:     "Bekleme    >  {seconds}s"
+  resets:       "Sifirlama  >  {date}"
+
+error:
+  cooldown:     "Bekleme suresi aktif — {seconds}s sonra tekrar gonderin."
+  pm_limit:     "Aylik PM limiti doldu ({limit}).\n\nDaha fazlasi icin yukseltin!"
+  group_limit:  "Aylik grup limiti doldu ({limit})."
+  img_limit:    "Gunluk gorsel limiti doldu ({limit}).\n\nDaha fazlasi icin yukseltin!"
+  dl_limit:     "Gunluk indirme limiti doldu ({limit}).\n\nDaha fazlasi icin yukseltin!"
+  api_error:    "API hatasi: {message}"
+  timeout:      "Istek zaman asimina ugradi. Tekrar deneyin."
+  no_prompt:    "Kullanim: /img isteminiz"
+  unknown:      "Bir seyler yanlis gitti. Daha sonra tekrar deneyin."
+  no_access:    "Erisim reddedildi."
+
+ai:
+  thinking:     "Dusunuyorum..."
+  generating:   "Olusturuyorum..."
+  chunk_footer: "-- Bolum {n} / {total} --"
+  no_response:  "Yanit alinamadi."
+
+admin:
+  header:       "YONETICI PANELI"
+  updated:      "Yapilandirma guncellendi: {key} = {value}"
+  user_info:    "{uid} | {plan} | PM: {pm} | Grup: {grp}"
+  grant_pro:    "{uid} kullanicisina plan verildi."
+  revoke_pro:   "{uid} kullacisindan plan alindi."
+  not_admin:    "Yonetici degilsiniz."
+  stats:        "Toplam: {total} | Pro: {pro} | Ucretsiz: {free}"
+
+dl:
+  fetching:     "Medya bilgileri aliniyor..."
+  downloading:  "Indiriliyor..."
+  no_media:     "Bu URL icin indirilebilir medya bulunamadi."
+  error:        "Indirme basarisiz: {error}"
+  link_label:   "Indir"
