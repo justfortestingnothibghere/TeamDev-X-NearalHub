@@ -15,26 +15,29 @@
 
 import requests
 
+# Dont Change
 BATBIN_API_URL = "https://batbin.me/api/paste/{paste_id}"
 
 
-
+# Change Only Bot-Token, (Optinal  API_SECRET) ADMIN_IDS.
 BOT_TOKEN  = "875xxxx52:AxxxxcxVit-ceyxN2WvIAZDsvcO0"
 API_SECRET = "TeamDev"
 ADMIN_IDS  = [8163739723]
 
+# change It
 MONGO_URI = "mongodb+srv://txxxxxdb_user:xxxx8@cluster0.6xywr7u.mongodb.net/?appName=Cluster0"
 MONGO_DB  = "teamdev_neuralhub"
 
-# ───────────────── Internal service URLs ─────────────────
+# ───────────────── Internal service URLs Dont Change ─────────────────
 API_BASE      = "http://localhost:8000"
 
-# ───────────────── Downloader API  ─────────────────
+# ───────────────── Downloader API ( Only Change When Your Deployed Your Own Api Fron Our AIO Repo  ─────────────────
 DL_API_BASE = "https://aio-production-df67.up.railway.app"
-DL_API_KEY  = ""
+DL_API_KEY  = "" # Dont Need For Now (Add If Your Api Need Key
 
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
+# Dont Change From Gere Anything
 # ───────────────── GROQ API-KEY LOADER  ─────────────────
 BATBIN_URL = "https://batbin.me/desegregated"
 
